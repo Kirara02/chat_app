@@ -1,0 +1,25 @@
+name: chatting
+version: 1.0.0+1
+publish_to: none
+description: This is chatting app with firebase
+environment: 
+  sdk: '>=2.15.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.12.0
+  firebase_analytics: ^9.1.1
+  firebase_crashlytics: ^2.5.2
+  get_cli: ^1.7.1
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
